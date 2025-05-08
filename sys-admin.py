@@ -22,3 +22,9 @@ print("\n🖥️ Gathering system information with uname -a:")
 command = "uname"
 commandArgument = "-a"
 subprocess.run([command, commandArgument])
+
+# Run 'ps -x' to list active processes
+print("\n📊 Gathering active process information with ps -x:")
+command = "ps"
+commandArgument = "-x"
+subprocess.run([command, commandArgument])
